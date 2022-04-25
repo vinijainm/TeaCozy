@@ -69,7 +69,7 @@ figure img{
 	display: flex;
 	flex-direction: row;
 	flex-flow: row wrap;	
-	
+	justify-content:center;
 	
 }
 .locationspanel{
@@ -87,11 +87,13 @@ figure img{
 	width: 300px;
 	margin: 40px;
 	text-align: center;
+	padding: 1em;
 }
 .loc{
 	
 	display: inline-flex;
 	opacity:1;
+	justify-content:center;
 }
 #hlocation{
 	text-align: center;
